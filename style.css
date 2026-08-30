@@ -18,7 +18,7 @@ body{
 .you{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
 }
 
 .you a{
@@ -29,6 +29,5 @@ body{
 .me{
     display: flex;
     justify-content: center;
-    align-items: center;
-    justify-content: space-between;
+    gap: 50px;
 }
