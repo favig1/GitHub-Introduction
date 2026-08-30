@@ -1,6 +1,9 @@
 body{
-    background-color: black;
+    background-image: url(./Gradient\ geometric\ shapes\ on\ blue\ background\ _\ Premium\ Vector.jpg);
+    background-size: cover;
+    background-position: center;
     font-size: 10px;
     height: 100%;
     width: 100%;
+    color: white;
 }
