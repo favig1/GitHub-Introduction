@@ -31,3 +31,23 @@ body{
     justify-content: center;
     gap: 50px;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 6px 14px;
+  gap: 8px;
+}
+
+.box input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.it{
+    border-radius: 30px;
+    background-color: transparent;
+}
