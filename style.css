@@ -71,3 +71,16 @@ h1{
 .now{
     font-size: 20px;
 }
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+
+.left{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: cornsilk;
+    
+}
