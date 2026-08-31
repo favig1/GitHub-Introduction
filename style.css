@@ -75,7 +75,7 @@ h1{
 .middle{
     display: flex;
     justify-content: space-between;
-
+}
 .left{
     height: 200px;
     width: 200px;
@@ -83,12 +83,17 @@ h1{
     margin-right: 50px;
     background-color: cornsilk;
     transition: 3s;
+
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     
 }
 
 .left:hover{
     background-color: blue;
     width: 50%;
+    /* transform: translate(200px,200px); */
 }
 
 @keyframes colorchange{
