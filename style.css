@@ -82,5 +82,26 @@ h1{
     margin-top: 50px;
     margin-right: 50px;
     background-color: cornsilk;
+    transition: 3s;
     
+}
+
+.left:hover{
+    background-color: blue;
+    width: 50%;
+}
+
+@keyframes colorchange{
+    0%{
+        background-color: red;
+        transform: scale(2,2);
+    }
+    50%{
+        background-color: green;
+        transform: scale(1.5,1.5);
+    }
+    100%{
+        background-color: blue;
+        transform: scale(1,1);
+    }
 }
