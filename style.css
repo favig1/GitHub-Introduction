@@ -89,6 +89,7 @@ h1{
     animation-iteration-count: infinite;
     
     animation-direction: reverse;
+    animation-timing-function: ease-in-out;
 }
 
 .left:hover{
