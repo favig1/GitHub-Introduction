@@ -84,6 +84,7 @@ h1{
     background-color: blue;
     transition: 3s;
     border-radius: 20px;
+    display: flex;
 
     animation-name: colorchange;
     animation-duration: 4s;
