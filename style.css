@@ -86,6 +86,7 @@ h1{
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
 
     animation-name: colorchange;
     animation-duration: 4s;
