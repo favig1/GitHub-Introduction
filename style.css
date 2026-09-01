@@ -88,12 +88,13 @@ h1{
     animation-duration: 4s;
     animation-iteration-count: infinite;
     
+    animation-direction: reverse;
 }
 
 .left:hover{
     background-color: blue;
     width: 50%;
-    /* transform: translate(200px,200px); */
+    /* transform: skew(360deg); */
 }
 
 @keyframes colorchange{
