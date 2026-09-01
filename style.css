@@ -78,7 +78,7 @@ h1{
 }
 .left{
     height: 200px;
-    width: 200px;
+    width: 400px;
     margin-top: 50px;
     margin-right: 50px;
     background-color: cornsilk;
@@ -99,16 +99,10 @@ h1{
 }
 
 @keyframes colorchange{
-    0%{
-        background-color: red;
-        transform: scale(2,2);
+    from{
+        transform: translateX(0px);
     }
-    50%{
-        background-color: green;
-        transform: scale(1.5,1.5);
-    }
-    100%{
-        background-color: blue;
-        transform: scale(1,1);
+    to{
+        transform: translateX(500px);
     }
 }
